@@ -38,6 +38,25 @@ body {
   flex: 0.9;
 }
 
+.app__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right .muiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.app__graphTitle {
+  margin-top: 20px;
+}
+
+.app__graph {
+  flex-grow: 1;
+}
+
 .app__information > h3 {
   color: #6a5d5d;
   font-weight: 400;
